@@ -62,13 +62,13 @@ def load_font_from_url(url, font_name):
 
 # URLs to the font files on GitHub
 url_grotesk_bold = 'https://raw.githubusercontent.com/nzylakffa/draft_strategy/main/FamiljenGrotesk-Bold.ttf'
-url_pally_regular = 'https://raw.githubusercontent.com/nzylakffa/draft_strategy/main/Pally-Regular.otf'
+# url_pally_regular = 'https://raw.githubusercontent.com/nzylakffa/draft_strategy/main/Pally-Regular.otf'
 url_grotesk_regular = 'https://raw.githubusercontent.com/nzylakffa/draft_strategy/main/FamiljenGrotesk-VariableFont_wght.ttf'
 
 # Load the fonts
 grotesk_font_bold = load_font_from_url(url_grotesk_bold, 'Familjen Grotesk')
 grotesk_font = load_font_from_url(url_grotesk_regular, 'Familjen Grotesk')
-pally_font_regular = load_font_from_url(url_pally_regular, 'Pally')
+# pally_font_regular = load_font_from_url(url_pally_regular, 'Pally')
 
 ########################################################################
 ############# Create Dataframes Based off Sleeper Research #############
