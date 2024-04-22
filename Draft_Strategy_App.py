@@ -359,7 +359,7 @@ if scoring == "PPR":
     )
 
     # credit
-    text = "<Data: Collected from randomly selected Sleeper leagues from 2021-2023"
+    text = "<Data: Collected from over 1 million Sleeper teams from 2021-2023"
     fig_text(
         0, 0.04,
         text,
