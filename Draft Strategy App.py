@@ -11,7 +11,7 @@ import os
 ###################
 ##### Sidebar #####
 ###################
-# st.sidebar.image('ffa_red.png', use_column_width=True)
+st.sidebar.image('ffa_red.png', use_column_width=True)
 st.sidebar.markdown("<h1 style='text-align: center;'>Read This!</h1>", unsafe_allow_html=True)
 st.sidebar.markdown("* Click Fullscreen at the bottom for a better user experience")
 st.sidebar.markdown("* To use this tool, first input your leagues scoring and roster settings into the first three drop downs.")
